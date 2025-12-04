@@ -40,5 +40,5 @@ jobs:
 
       - name: Run cart manager agent initializer
         run: |
-          cd app/
+          cd src/
           python app/agents/cartManagerAgent_initializer.py
